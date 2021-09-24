@@ -1,0 +1,290 @@
+.App {
+  text-align: center;
+  background-image: url("./BarnwoodOak.jpg");
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#sidenav{
+	width: 17%; 
+	position: fixed; 
+	z-index: 1; 
+ margin: 0; 
+	margin-left: 1%;
+  margin-top: 1%;
+	/* background-color: rgb(242, 142, 11);  */
+	overflow-x: hidden; 
+	padding-top: 20px;
+  overflow-y: hidden;
+  height:65%;
+  outline: 1px solid #ddd;
+border-top: 1px solid #fff;
+padding: 10px;
+/* opacity: 99%; */
+background-image: url("./TerraOak.jpg");
+}
+
+.navmenu{
+  border-bottom: 2px solid brown;
+  font-size: 16px;
+  color:white;
+  /* border-bottom: 2px xolid black; */
+}
+
+.spacer{
+  background-color: brown;
+}
+
+
+hr { 
+  display: block; height: 1px;
+  border: 0; border-top: 1px solid #ccc;
+  margin: 1em 0; padding: 0;
+ }
+
+ #middleArea{
+   position:absolute;
+   bottom:0;
+   height:75%;
+   width:98%;
+    background-color: antiquewhite;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-bottom: 5px solid red;
+    border-top: 3px solid #003A64;
+ }
+
+ footer{
+   bottom: 1%;
+ }
+
+ #blog{
+    border-left: 2px solid crimson;
+    width: 25%;
+    right:4%;
+ }
+
+ #blogHolder{
+   margin-top:3%
+ }
+
+ #emailContainer{
+   margin-top: 5%;
+   border: 3px solid antiquewhite;
+   width: 750px;
+   margin-left:25%;
+   height: 350px;
+  
+
+ }
+
+ #addy{
+   color: antiquewhite
+ }
+
+ #welcomePage{
+   color: #003A64;
+ }
+
+ #blog-link{
+   color: lightblue;
+ }
+
+
+ /* p { 
+  margin: 5px 30px 15px;
+  font-family:"Century Gothic", "HelveticaNeueLT Pro 45 Lt", sans-serif;  
+} */
+.demo div { 
+  width: 400px;
+  height: 65px;
+  line-height: 60px;
+  font-family: "Century Gothic", "Helvetica", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 30px; 
+}
+/* Darker text on medium background */
+
+
+#homebutton{
+  font-weight: bold;
+  text-align: center;
+  /* margin-left: 30px;  */
+
+  color: #333;
+  background-color: #667;
+  /* text-shadow: 0px 1px 0px rgba(255,255,255,.5); 50% white from bottom */
+  /* margin: 5px 30px 15px; */
+  font-family:"Century Gothic", "HelveticaNeueLT Pro 45 Lt", sans-serif;  
+
+	padding: 5px;
+	border-radius: 5px;
+	width: 100px;
+	text-align: center;
+	border-top: 1px solid rgba(255, 255, 255, .5);
+	border-left: 1px solid rgba(255, 255, 255, .5);
+	border-right: 1px solid rgba(0, 0, 0, .5);
+	border-bottom: 1px solid rgba(0, 0, 0, .5);
+	box-shadow: 1px 1px 1px 0 rgba(255, 255, 255, .5),
+		-1px -1px 0 rgba(0, 0, 0, .5);
+}
+
+#homebuttontext{
+  color:rgb(84, 84, 84);
+  
+}
+
+#finishTable{
+  margin-left: 63%;
+  margin-top: 10%;
+  margin-right:2%;
+  border: 3px solid burlywood;
+}
+
+#finishTable thead td {
+  border-bottom: 2px solid black
+}
+
+#finishTable > thead > tr:nth-child(1) > td.noBorder{
+  border-bottom: none;
+}
+
+#finishtablehead{
+  background-color: cornflowerblue;
+}
+
+/* #emailSend{
+  margin-left: 8%;
+  background-color: blue;
+} */
+
+#emailMiddleArea{
+  position:absolute;
+  bottom:0;
+  height:75%;
+  width:98%;
+   background-color: #1F0E00;
+   /* background-color: none; */
+   margin-left: 1%;
+   margin-right: 1%;
+   border-bottom: 5px solid red;
+   border-top: 3px solid #003A64;
+}
+
+#emailButton{
+  margin-left: 92%;
+  font-size: 20px;
+  color: purple;
+}
+
+#emailList{
+  width: 150px;
+}
+
+#emailName{
+  width: 115px;
+}
+
+.emailText{
+  color: darkkhaki;
+  font-size: 20px;
+}
+
+#welcomeBox {
+  margin-left: 70%;
+  /* bottom: 0; */
+  margin-right: 4%;
+  justify-content:end;
+  color: white;
+  text-align: right;
+}
+
+Footer{
+  bottom:0;
+  left:0;
+}
+
+#topHeader{
+  background-color: teal;
+}
+
+#selectedFinish {
+  border: 2px solid darkgrey;
+  height: fit-content;
+  background-color: yellowgreen;
+  width: 3em;
+}
+
+.tableSpacer{
+  /* background-color: black; */
+  border: 2px solid grey;
+  margin-left: 1px;
+  margin-right: 1px;
+  width: 5px;
+}
+
+#tableborder {
+  direction: rtl;
+  width:800px;
+  margin-left: 22%;
+  overflow-y: scroll;
+  height: 250px;
+}
+
+.rowcss{
+  border-bottom: 1px dashed black;
+  color: purple;
+}
+
+.rowcss{
+  font-size: 24px;
+}
+
+.FinishSeries{
+  text-align: center;
+}
+
+td{
+  border: 1px solid black;
+}
+
+.FinishMaterial{
+  color: orangered;
+  text-align: center;
+}
+
+#header {
+  top:0;
+  position:relative;
+  /* overflow: auto;
+  height:100%; */
+}
+
+.sortButtons{
+  color: crimson;
+  margin-left:1em;
+  margin-right:1em;
+  margin-bottom: 5px;
+  /* background-color: lightslategray; */
+  /* border-radius: 50%; */
+  font-size: 18px;
+}
+.sortButtons:hover{
+  background-color: orangered;
+  color:blue;
+}
+
+#tabletop{
+  visibility:visible;
+}
+
+/* #tabletop tr td:hover{
+  visibility:visible;
+} */
+
+.rowcss a {
+  color: black;
+  font-size: 22px;
+}
