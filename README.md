@@ -4,7 +4,7 @@ This project is a demo showing available finishes; stains, stain with glaze, pai
 To run create-react-wptheme in your Ubutnu terminal cd into, or open a git bash terminal in, ../c/xampp/htdocs/wordpress/wp-content/themes.
 
 Weather data fetched from 'https://openweathermap.org/'
-note: this is the React backend removed from the project as a whole.
+note: this is the React frontend removed from the project as a whole.
 
 Available Scripts
 In the project directory, you can run:
